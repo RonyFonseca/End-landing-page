@@ -107,12 +107,17 @@
 
 #pages {
     background-color: #545454;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #cabecario-pages {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 10px;
 }
 
 #cabecario-pages > div {
@@ -153,7 +158,8 @@
 .card-page {
     background-color: #ffff;
     color: #545454; 
-    margin: 0px 500px;
+    width: 500px;
+    margin: auto;
     border-radius: 10px;
 }
 
@@ -211,5 +217,28 @@
 
     .card > h2 {
         background-color: transparent;
+    }
+
+    /* PAGES */
+
+    #cabecario-pages > a > i {
+        font-size: 30px;
+        color: orange;
+    }
+
+    #cabecario-pages > div > img {
+        width: 100px;
+    }
+
+    #cabecario-pages > div > h1 {
+        width: 100px;
+        border-radius: 20px;    
+        text-align: center;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    #corpo-page {
+        margin: auto;
     }
 }
