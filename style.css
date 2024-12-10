@@ -62,11 +62,10 @@
 }
 
 #corpo > img {
-    width: 600px;
+    max-width: 450px;
 }
 
 #menu-lateral {
-    margin-right: 10px;
     color: #ffff;
     display: flex;
     align-items: center;
