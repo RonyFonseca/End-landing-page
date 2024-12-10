@@ -164,6 +164,10 @@
 
 /* RESPONSIVIDADE */
 @media (max-width: 500px) {
+    #cabecario {
+        padding: 10px;
+    }
+
     #cabecario > img {
         display: none;
     }
@@ -174,6 +178,10 @@
         width: 100px;
         align-items: center;
         justify-content: center;
+    }
+
+    #cabecario > nav > ul {
+        padding-left: 40px;
     }
 
     #cabecario > nav > ul > li > .icon {
