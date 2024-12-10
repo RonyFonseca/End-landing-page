@@ -1,0 +1,167 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    background-image: url("assets/img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#cabecario {
+    border-bottom: 2px solid #0000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #ffff;
+}
+
+#cabecario > img {
+    width: 90px;
+}
+
+#cabecario > nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+#cabecario > nav > ul > li {
+    display: flex;
+    align-items: center;
+    background-color: #545454;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 120px;
+    transition: 1s;
+}
+
+#cabecario > nav > ul > li:hover {
+    background-color: #3d3d3d;
+}
+
+#cabecario > nav > ul > li > .icon {
+    width: 35px;
+}
+
+#cabecario > nav > ul > li > a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+#corpo {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#corpo > img {
+    width: 600px;
+}
+
+#menu-lateral {
+    margin-right: 10px;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.card > h2 {
+    background-color: #ffff;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card > h2 > a {
+    color: #545454;
+    font-size: 18px;
+}
+
+.card > img {
+        width: 120px;
+}
+
+#rodape {
+    background-color: #ffff;
+    padding: 17px;
+    text-align: center;
+}
+
+/* PAGES */
+
+#pages {
+    background-color: #545454;
+}
+
+#cabecario-pages {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#cabecario-pages > div {
+    display: flex;
+    align-items: center;
+}
+
+#cabecario-pages > div > img {
+    width: 200px;
+}
+
+#cabecario-pages > a {
+    text-decoration: none;
+}
+
+#cabecario-pages > a > i {
+    font-size: 40px;
+    color: orange;
+}
+
+#cabecario-pages > div > h1 {
+    background-color: #ffff;
+    color: #545454; 
+    width: 140px;
+    border-radius: 20px;    
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#corpo-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-page {
+    background-color: #ffff;
+    color: #545454; 
+    margin: 0px 500px;
+    border-radius: 10px;
+}
+
+.card-page > ul {
+    list-style-position: inside;
+    padding: 10px;
+}
+
+
+
