@@ -169,6 +169,7 @@
 }
 
 /* RESPONSIVIDADE */
+
 @media (max-width: 500px) {
     #cabecario {
         padding: 10px;
@@ -227,7 +228,7 @@
     }
 
     #cabecario-pages > div > img {
-        width: 100px;
+        width: 140px;
     }
 
     #cabecario-pages > div > h1 {
