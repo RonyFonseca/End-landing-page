@@ -241,4 +241,8 @@
     #corpo-page {
         margin: auto;
     }
+
+    .card-page {
+        width: 300px;
+    }
 }
