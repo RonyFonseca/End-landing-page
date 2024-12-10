@@ -62,11 +62,11 @@
 }
 
 #corpo > img {
-    max-width: 450px;
+    max-width: 500px; 
+    /* 450 - para cell */
 }
 
 #menu-lateral {
-    color: #ffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,5 +162,42 @@
     padding: 10px;
 }
 
+/* RESPONSIVIDADE */
+@media (max-width: 500px) {
+    #cabecario > nav > ul > li {
+        padding: 5px;
+        padding-left: 0;
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+    }
 
+    #cabecario > nav > ul > li > .icon {
+        display: none;
+    }
 
+    #corpo {
+        display: block;
+    }
+
+    #corpo > img {
+        width: 450px;
+    }
+
+    #menu-lateral {
+        gap: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+
+    .card {
+        flex-direction: column;
+        background-color: #ffff;
+        border-radius: 10px;
+    }
+
+    .card > h2 {
+        background-color: transparent;
+    }
+}
